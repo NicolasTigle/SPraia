@@ -1,1 +1,1 @@
-# SPraia
+# Projeto SPraia .NET 6
