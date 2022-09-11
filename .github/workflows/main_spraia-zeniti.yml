@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'spraia-zeniti'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_270088DC6F5042F79693B997FC86C441 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4810AB45F73142D99C1152EA1D7D4C21 }}
           package: .
