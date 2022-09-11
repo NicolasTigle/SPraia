@@ -1,1 +1,1 @@
-# Projeto SPraia .NET 6
+# Projeto SPraia - WebApp Azure com .NET 6 e SQL Server na nuvem
