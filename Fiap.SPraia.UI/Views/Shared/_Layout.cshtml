@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Fiap.SPraia.UI.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="background-blue">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
+            <div class="container-fluid background-sand">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SPraia</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -50,3 +50,13 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+<style>
+    .background-blue{
+        background-color: lightblue;
+    }
+
+    .background-sand{
+        background-color: #E9BD86
+    }
+</style>
